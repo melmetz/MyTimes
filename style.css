@@ -1,4 +1,12 @@
 .header {
   font-family: Verdana; font-size: 14px; font-weight: bold;
-  display: flex;
-  }
+  padding: 30px 0px 40px; margin-left: 50px; margin-right: 50px;
+}
+
+.container { margin: 0 auto; display: block;}
+
+.header h3 { color: MediumAquamarine;}
+.header li { list-style: none; display: inline-block;}
+
+.logo { display: inline-block;}
+ul { text-align: right;}
