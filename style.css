@@ -1,6 +1,7 @@
 .header {
   font-family: Verdana; font-size: 14px; font-weight: bold;
   padding: 30px 0px 40px; margin-left: 50px; margin-right: 50px;
+  display: flex;
 }
 
 .container { margin: 0 auto; display: block;}
@@ -10,3 +11,20 @@
 
 .logo { display: inline-block;}
 ul { text-align: right;}
+
+.articles p { font-family: Georgia;font-size: 17px; color: black;font-weight: normal;}
+
+.main h1 {background-image: url("./Photos/img-story-main.png"); color: white;}
+.main p {font-size: 40px;}
+
+.cats, .earth, .cameras {font-family: Georgia; font-weight: bold; font-size: 30px; color: white;}
+  .cats h2 {background-image: url("./Photos/img-story-1.png"); color: white;}
+  .earth {background-image: url("./Photos/img-story-2.png"); color: white;}
+  .cameras {background-image: url("./Photos/img-story-3.png"); color: white;}
+
+.sidebar h3 {font-size: 16px; font-weight: bold;}
+.sidebar li {background-color: WhiteSmoke; font-family: Verdana; font-size: 12px; color: DimGray;
+  list-style:none; display: inline-block;}
+
+.footer { background-color: MediumAquamarine;margin: auto; font-family: Verdana; font-size: 12px;}
+.footer h3 {font-family: Georgia;font-size: 16px;font-weight: bold; color: white;}
